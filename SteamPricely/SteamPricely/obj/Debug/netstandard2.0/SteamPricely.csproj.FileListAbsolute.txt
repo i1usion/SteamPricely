@@ -12,4 +12,4 @@ C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\SteamPricely.dll
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\ref\SteamPricely.dll
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\SteamPricely.pdb
-C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\MainUI.xaml.g.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\MenuPage.xaml.g.cs

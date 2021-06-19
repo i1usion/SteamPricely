@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SteamPricely.MainUI.xaml", "MainUI.xaml", typeof(global::SteamPricely.MainUI))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("SteamPricely.MenuPage.xaml", "MenuPage.xaml", typeof(global::SteamPricely.MenuPage))]
 
 namespace SteamPricely {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MainUI.xaml")]
-    public partial class MainUI : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MenuPage.xaml")]
+    public partial class MenuPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainUI));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MenuPage));
         }
     }
 }

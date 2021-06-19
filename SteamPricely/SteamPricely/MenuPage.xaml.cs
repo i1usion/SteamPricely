@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace SteamPricely
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainUI : ContentPage
+    public partial class MenuPage : ContentPage
     {
-        public MainUI()
+        public MenuPage()
         {
             InitializeComponent();
         }

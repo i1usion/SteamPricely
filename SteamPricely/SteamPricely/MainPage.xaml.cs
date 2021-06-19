@@ -14,17 +14,13 @@ namespace SteamPricely
         public MainPage()
         {
             InitializeComponent();
-
-            NavigateCommand = new Command<Type>(async (Type pageType) =>
-            {
-                Page page = (Page)Activator.CreateInstance(pageType);
-                await Navigation.PushAsync(page);
-            });
-
-            BindingContext = this;
+           
         }
 
-        public ICommand NavigateCommand { private set; get; }
 
+        private void btnFree_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MenuPage());
+        }
     }
 }
