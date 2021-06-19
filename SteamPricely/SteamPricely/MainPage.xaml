@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=netstandard"
+             x:Class="SteamPricely.MainPage">
+
+    <StackLayout BackgroundColor="#141414">
+        <Frame BackgroundColor="#141414" Padding="8" CornerRadius="0">
+            <Label Text="SteamPricely" HorizontalTextAlignment="Center" Padding = "0, 5, 0, 0" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <StackLayout Padding="0, 220, 0, 0">
+            <Button x:Name="btnFree" Text="Start for free"  HorizontalOptions="Center" Padding = "15, 7, 15, 7" FontSize="15" BackgroundColor="#404040"
+            Command="{Binding NavigateCommand}"
+            CommandParameter="{x:Type local:MainUI}"/>
+        </StackLayout>
+            
+        <Label FontSize="16" Padding="0, 0, 0, 0" VerticalOptions="EndAndExpand" HorizontalTextAlignment="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Have premium?"  TextColor="White" FontSize="16"/>
+                        
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Button Text="Sign in" BackgroundColor="#141414" TextColor="White" FontSize="16" Padding="0, 0, 0, 20"/>
+    </StackLayout>
+
+</ContentPage>
