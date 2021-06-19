@@ -49,14 +49,15 @@ namespace SteamPricely
             }
 
         }
+
+        private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var item = (SearchItem)e.SelectedItem;
+            ;
+                Navigation.PushAsync(new ItemPage(item));
+
+        }
     }
 
-    public class SearchItem
-    {
-        public string Name { set; get; }
-        public string Exterior { set; get; }
-        public string Img { set; get; }
-        //public string Price { private set; get; } (if needed)
-
-    }
+  
 }

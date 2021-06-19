@@ -6,10 +6,9 @@
         <StackLayout BackgroundColor="#141414">
             <SearchBar Placeholder="Enter item name" BackgroundColor="AliceBlue" TextChanged="SearchBar_TextChanged" />
 
-            <StackLayout Orientation="Horizontal">
-            </StackLayout>
+           
 
-            <ListView x:Name="listView" RowHeight="100" SeparatorColor="#707070">
+            <ListView x:Name="listView" RowHeight="100" SeparatorColor="#707070" ItemSelected="listView_ItemSelected">
 
 
                 <ListView.ItemTemplate>
@@ -18,16 +17,16 @@
                             <ContentView Padding="5">
                                 
                                     <StackLayout Orientation="Horizontal">
-                                        <Image Source="{Binding Img}"
+                                        <Image x:Name="imagexaml" Source="{Binding Img}"
                                          WidthRequest="100"
                                          HeightRequest="100" />
                                         <StackLayout>
                                             <Label Text="{Binding Name}"
                                            FontSize="22"
-                                           VerticalOptions="StartAndExpand" TextColor="#a8a8a8" />
+                                           VerticalOptions="EndAndExpand" TextColor="#a8a8a8" />
                                             <Label Text="{Binding Exterior}"
                                            FontSize="16"
-                                           VerticalOptions="CenterAndExpand" TextColor="#a8a8a8" />
+                                           VerticalOptions="StartAndExpand" TextColor="#a8a8a8" />
                                         </StackLayout>
                                     </StackLayout>
                                 
