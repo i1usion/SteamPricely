@@ -17,4 +17,13 @@ namespace SteamPricely
             InitializeComponent();
         }
     }
+
+    public class SearchItem
+    {
+        public string SkinName { private set; get; }
+        public string Exterior { private set; get; }
+        public string Img { private set; get; }
+        //public string Price { private set; get; } (if needed)
+
+    }
 }

@@ -3,10 +3,48 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SteamPricely.MenuPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout BackgroundColor="#141414">
+            <SearchBar Placeholder="Enter item name" BackgroundColor="AliceBlue" SearchButtonPressed="OnSearchBarButtonPressed" />
+
+            <StackLayout Orientation="Horizontal">
+                <BoxView WidthRequest="4" Margin="0, 0, 10, 0" />
+            </StackLayout>
+
+            <ListView SeparatorVisibility="None"
+              ItemsSource="{x:Static local:NamedColor.All}">
+                <ListView.RowHeight>
+                    <OnPlatform x:TypeArguments="x:Int32">
+                        <On Platform="iOS, Android" Value="80" />
+                        <On Platform="UWP" Value="90" />
+                    </OnPlatform>
+                </ListView.RowHeight>
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ContentView Padding="5">
+                                <Frame OutlineColor="Accent"
+                               Padding="10">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image Source="{Binding Img}"
+                                         WidthRequest="50"
+                                         HeightRequest="50" />
+                                        <StackLayout>
+                                            <Label Text="{Binding SkinName}"
+                                           FontSize="22"
+                                           VerticalOptions="StartAndExpand" />
+                                            <Label Text="{Binding Exterior}"
+                                           FontSize="16"
+                                           VerticalOptions="CenterAndExpand" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </ContentView>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -10,7 +10,7 @@
         </Frame>
 
         <StackLayout Padding="0, 220, 0, 0">
-            <Button x:Name="btnFree" Text="Start for free"  HorizontalOptions="Center" Padding = "15, 7, 15, 7" FontSize="15" BackgroundColor="#404040"
+            <Button x:Name="btnFree" Text="Login as guest"  HorizontalOptions="Center" Padding = "15, 7, 15, 7" FontSize="15" BackgroundColor="#404040"
             Clicked="btnFree_Clicked"/>
         </StackLayout>
             
