@@ -2,23 +2,83 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SteamPricely.ItemPage">
-    <ContentPage.Content>
+    <ScrollView>
         <StackLayout BackgroundColor="#141414">
             <StackLayout>
                 <StackLayout BackgroundColor="DimGray">
-                <Image x:Name="ItemImage" MinimumWidthRequest="500" MinimumHeightRequest="500" Source="https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszJemkV09G3h5SOhe7LPr7Vn35c18lwmO7Eu4ih0VDi80drZ276JtfBdQE4ZA3S8gXoxebogZ-57ZiYmCFlvyIi5HjD30vgrWhS6dA/560fx560f"/>
+                <Image x:Name="ItemImage" MinimumWidthRequest="500" MinimumHeightRequest="500" />
                 </StackLayout>
-                <Label x:Name="ItemName" HorizontalOptions="CenterAndExpand" Text="TestItemName | Huita " TextColor="AliceBlue" FontSize="24" Padding="10, 10, 0, 0" />
-                <Label x:Name="ItemExterior" Text="Exterior: Field-tested " HorizontalOptions="CenterAndExpand" TextColor="AliceBlue" FontSize="18" Padding="10, 5, 0, 0" />
+                <Label x:Name="ItemName" HorizontalOptions="CenterAndExpand"  TextColor="AliceBlue" FontSize="24" Padding="10, 10, 0, 0" />
+                <Label x:Name="ItemExterior"  HorizontalOptions="CenterAndExpand" TextColor="AliceBlue" FontSize="18" Padding="10, 5, 0, 0" />
             </StackLayout>
             <StackLayout>
-                <ContentView Padding="10, 15">
+                <ContentView Padding="20, 25">
                     <StackLayout>
+                    <StackLayout Orientation="Horizontal" Padding="0, 0, 0, 20">
                         <Image Source="https://static.pricempire.com/logos/steam_listing_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
-                        <Label Text="Steam Price: " HorizontalOptions="Center" TextColor="AliceBlue"/>
+                            <Label Text="Steam Price: " VerticalOptions="Center" Padding="10, 0, 0, 0" TextColor="AliceBlue" FontSize="20"/>
+                            <Label x:Name="priceSteam" VerticalOptions="Center" HorizontalOptions="EndAndExpand" Padding="0, 0, 75, 0" TextColor="AliceBlue" FontSize="20"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Padding="0, 0, 0, 20">
+                            <Image Source="https://static.pricempire.com/logos/csmoney_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                            <Label Text="csmoney Price: " VerticalOptions="Center" Padding="10, 0, 0, 0" TextColor="AliceBlue" FontSize="20"/>
+                            <Label x:Name="priceCsmoney" VerticalOptions="Center" HorizontalOptions="EndAndExpand" Padding="0, 0, 75, 0" TextColor="AliceBlue" FontSize="20"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Padding="0, 0, 0, 20">
+                            <Image Source="https://static.pricempire.com/logos/buff163_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                            <Label Text="buff163 Price: " VerticalOptions="Center" Padding="10, 0, 0, 0" TextColor="AliceBlue" FontSize="20"/>
+                            <Label x:Name="priceBuff163" VerticalOptions="Center" HorizontalOptions="EndAndExpand" Padding="0, 0, 75, 0" TextColor="AliceBlue" FontSize="20"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Padding="0, 0, 0, 20">
+                            <Image Source="https://static.pricempire.com/logos/dmarket_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                            <Label Text="Dmarket Price: " VerticalOptions="Center" Padding="10, 0, 0, 0" TextColor="AliceBlue" FontSize="20"/>
+                            <Label x:Name="priceDmarket" VerticalOptions="Center" HorizontalOptions="EndAndExpand" Padding="0, 0, 75, 0" TextColor="AliceBlue" FontSize="20"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Padding="0, 0, 0, 20">
+                            <Image Source="https://static.pricempire.com/logos/csgotm_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                            <Label Text="csgo.tm Price: " VerticalOptions="Center" Padding="10, 0, 0, 0" TextColor="AliceBlue" FontSize="20"/>
+                            <Label x:Name="priceCsgotm" VerticalOptions="Center" HorizontalOptions="EndAndExpand" Padding="0, 0, 75, 0" TextColor="AliceBlue" FontSize="20"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Padding="0, 0, 0, 20">
+                            <Image Source="https://static.pricempire.com/logos/waxpeer_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                            <Label Text="Waxpeer Price: " VerticalOptions="Center" Padding="10, 0, 0, 0" TextColor="AliceBlue" FontSize="20"/>
+                            <Label x:Name="priceWaxpeer" VerticalOptions="Center" HorizontalOptions="EndAndExpand" Padding="0, 0, 75, 0" TextColor="AliceBlue" FontSize="20"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Padding="0, 0, 0, 20">
+                            <Image Source="https://static.pricempire.com/logos/skinport_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                            <Label Text="Skinport Price: " VerticalOptions="Center" Padding="10, 0, 0, 0" TextColor="AliceBlue" FontSize="20"/>
+                            <Label x:Name="priceSkinport" VerticalOptions="Center" HorizontalOptions="EndAndExpand" Padding="0, 0, 75, 0" TextColor="AliceBlue" FontSize="20"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Padding="0, 0, 0, 20">
+                            <Image Source="https://static.pricempire.com/logos/swapgg_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                            <Label Text="swap.gg Price: " VerticalOptions="Center" Padding="10, 0, 0, 0" TextColor="AliceBlue" FontSize="20"/>
+                            <Label x:Name="priceSwapgg" VerticalOptions="Center" HorizontalOptions="EndAndExpand" Padding="0, 0, 75, 0" TextColor="AliceBlue" FontSize="20"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Padding="0, 0, 0, 20">
+                            <Image Source="https://static.pricempire.com/logos/vmarket_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                            <Label Text="Vmarket Price: " VerticalOptions="Center" Padding="10, 0, 0, 0" TextColor="AliceBlue" FontSize="20"/>
+                            <Label x:Name="priceVmarket" VerticalOptions="Center" HorizontalOptions="EndAndExpand" Padding="0, 0, 75, 0" TextColor="AliceBlue" FontSize="20"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Padding="0, 0, 0, 20">
+                            <Image Source="https://static.pricempire.com/logos/csgoexo_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                            <Label Text="Csgoexo Price: " VerticalOptions="Center" Padding="10, 0, 0, 0" TextColor="AliceBlue" FontSize="20"/>
+                            <Label x:Name="priceCsgoexo" VerticalOptions="Center" HorizontalOptions="EndAndExpand" Padding="0, 0, 75, 0" TextColor="AliceBlue" FontSize="20"/>
+                        </StackLayout>
+
+
                     </StackLayout>
+
                 </ContentView>
             </StackLayout>
         </StackLayout>
-    </ContentPage.Content>
+    </ScrollView>
 </ContentPage>
