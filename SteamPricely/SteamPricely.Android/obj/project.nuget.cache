@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rMHFbdR/PLQ+7GtOZMTA9+F6jMw6+6ZJRjk9rqkW2TrO7UXJzSD9d28WqvInqPEZ6/EWIvYNqcqbGe25VYi/zw==",
+  "dgSpecHash": "y6GHSf3vMcXmIptHjH9IlpuVgv0Xqt/QALm+Yo0NrdwxN4o1wK4RcUfX0tRINZ3G4T8gJvuzkjSl3qyDyBCvLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\blablacar\\source\\repos\\SteamPricely\\SteamPricely\\SteamPricely.Android\\SteamPricely.Android.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\Git\\SteamPricely\\SteamPricely\\SteamPricely.Android\\SteamPricely.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\blablacar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\renjo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",

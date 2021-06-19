@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Z0i7ug0nsJBfQ4L/HZ72g8fMI+L9G7wsN8DZxhWMNGG3YZdbtWyka6+5D/AL+N/nlHpFKb5HJfjpAqmufRyr/w==",
+  "dgSpecHash": "VsbuHGEzgH7MSdDiaJrt4j4fCi4sUT5xEhhS080m2bx01t3NKFPocKFRYg3vgVPkY8VSWmaat17GdmlOrYdQBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\blablacar\\source\\repos\\SteamPricely\\SteamPricely\\SteamPricely\\SteamPricely.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\Git\\SteamPricely\\SteamPricely\\SteamPricely\\SteamPricely.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\blablacar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\blablacar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\blablacar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\renjo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\renjo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\renjo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
