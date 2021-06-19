@@ -4,41 +4,33 @@
              x:Class="SteamPricely.MenuPage">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#141414">
-            <SearchBar Placeholder="Enter item name" BackgroundColor="AliceBlue" SearchButtonPressed="OnSearchBarButtonPressed" />
+            <SearchBar Placeholder="Enter item name" BackgroundColor="AliceBlue" TextChanged="SearchBar_TextChanged" />
 
             <StackLayout Orientation="Horizontal">
-                <BoxView WidthRequest="4" Margin="0, 0, 10, 0" />
             </StackLayout>
 
-            <ListView SeparatorVisibility="None"
-              ItemsSource="{x:Static local:NamedColor.All}">
-                <ListView.RowHeight>
-                    <OnPlatform x:TypeArguments="x:Int32">
-                        <On Platform="iOS, Android" Value="80" />
-                        <On Platform="UWP" Value="90" />
-                    </OnPlatform>
-                </ListView.RowHeight>
+            <ListView x:Name="listView" RowHeight="100" SeparatorColor="#707070">
+
 
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <ContentView Padding="5">
-                                <Frame OutlineColor="Accent"
-                               Padding="10">
+                                
                                     <StackLayout Orientation="Horizontal">
                                         <Image Source="{Binding Img}"
-                                         WidthRequest="50"
-                                         HeightRequest="50" />
+                                         WidthRequest="100"
+                                         HeightRequest="100" />
                                         <StackLayout>
-                                            <Label Text="{Binding SkinName}"
+                                            <Label Text="{Binding Name}"
                                            FontSize="22"
-                                           VerticalOptions="StartAndExpand" />
+                                           VerticalOptions="StartAndExpand" TextColor="#a8a8a8" />
                                             <Label Text="{Binding Exterior}"
                                            FontSize="16"
-                                           VerticalOptions="CenterAndExpand" />
+                                           VerticalOptions="CenterAndExpand" TextColor="#a8a8a8" />
                                         </StackLayout>
                                     </StackLayout>
-                                </Frame>
+                                
                             </ContentView>
                         </ViewCell>
                     </DataTemplate>
