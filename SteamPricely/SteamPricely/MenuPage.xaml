@@ -17,7 +17,7 @@
                             <ContentView Padding="5">
                                 
                                     <StackLayout Orientation="Horizontal">
-                                        <Image x:Name="imagexaml" Source="{Binding Img}"
+                                        <Image x:Name="imagexaml" Source="{Binding imageUrl}"
                                          WidthRequest="100"
                                          HeightRequest="100" />
                                         <StackLayout>

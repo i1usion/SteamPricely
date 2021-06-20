@@ -1158,3 +1158,5 @@ C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely.Android\o
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely.Android\obj\Debug\110\android\assets\System.Buffers.dll
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely.Android\obj\Debug\110\android\assets\System.Memory.dll
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely.Android\obj\Debug\110\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely.Android\obj\Debug\110\android\assets\Newtonsoft.Json.dll
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely.Android\obj\Debug\110\android\assets\RestEase.dll

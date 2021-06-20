@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QmL9+nzNexz5qLYT+2dQqyeUIPmk3maW0c2Sst8E3NmEwtXBF7Gr00EP0EKl2Kwu3v8fc8XpFBHxk/Oll3uv5A==",
+  "dgSpecHash": "rbNp0X8CvomiXcLJnwR6X3nCwfJDw/VwpITmi0GJxsYvOy090szfBGN5Nuur/5FMW8MU5uqs6A5ZG05/QWqlzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\blablacar\\source\\repos\\SteamPricely\\SteamPricely\\SteamPricely.Android\\SteamPricely.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\blablacar\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
+    "C:\\Users\\blablacar\\.nuget\\packages\\restease\\1.5.5\\restease.1.5.5.nupkg.sha512",
     "C:\\Users\\blablacar\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\blablacar\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\blablacar\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",

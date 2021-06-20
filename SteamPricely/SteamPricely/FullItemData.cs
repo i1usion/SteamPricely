@@ -6,9 +6,7 @@ namespace SteamPricely
 {
     public class FullItemData : SearchItem
     {
-        public string Name { set; get; }
-        public string Exterior { set; get; }
-        public string Img { set; get; }
+        public string steam { set; get; }
         public string bitskins { set; get; }
         public string buff163 { set; get; }
         public string csmoney { set; get; }

@@ -11,6 +11,8 @@ namespace SteamPricely.Models
         public int Id { get; set; }
         public string Name { set; get; }
         public string Exterior { set; get; }
-        public string Img { set; get; }
+        public string imageUrl { set; get; }
     }
+
+    
 }
