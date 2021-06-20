@@ -5,14 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using SteamPricely.Services;
 
 namespace SteamPricely
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MenuPage : ContentPage
     {
+        List<SearchItem> tempdata;
         
-        public List<SearchItem> tempdata;
         public MenuPage()
         {
             InitializeComponent();
@@ -20,7 +21,7 @@ namespace SteamPricely
             listView.ItemsSource = tempdata;
         }
 
-        public void data()
+        void data()
         {
             // all the temp data  
             tempdata = new List<SearchItem> {
@@ -35,7 +36,8 @@ namespace SteamPricely
         new SearchItem(){ Name = "AK-47 | The Empress", Exterior = "Well-Worn", Img = "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhnwMzJemkV09m7hJKOhOTLPr7Vn35c18lwmO7Eu9ql2gDg8kBoYWqlddLHIVI8YFnZqFTrk73mjMW-v87ByHRluiB2533D30vgNUkukuM/360fx360f"},
         new SearchItem(){ Name = "AWP | Atheris", Exterior = "Field-Tested", Img = "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAR17PLfYQJU5cyzhr-GkvP9JrbummpD78A_3-vE9I6t0Afir0JuMWnxIdKRJAZvZF-E_FLsyLruhsS8ucmcz3Vmvj5iuygKH_-NNA/360fx360f"},
     };
-            }
+        }
+
 
             private void SearchBar_TextChanged(object sender, TextChangedEventArgs e){
             if (string.IsNullOrEmpty(e.NewTextValue))

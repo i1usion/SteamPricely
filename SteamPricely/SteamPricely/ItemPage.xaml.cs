@@ -24,8 +24,11 @@ namespace SteamPricely
         {
             InitializeComponent();
             var FullItemName = ItemInfo.Exterior;
-            ;
-            
+            ItemName.Text = ItemInfo.Name;
+            ItemExterior.Text = ItemInfo.Exterior;
+            ItemImage.Source = ItemInfo.Img;
+
+
         }
     }
 }
