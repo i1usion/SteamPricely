@@ -52,30 +52,54 @@ namespace SteamPricely.Services
         public static async Task<FullItemData> loadPriceData(FullItemData item)
         {
             string json;
-            using (WebClient client = new WebClient())
-            {
-                //string url = "https://steamlistfunctionapp.azurewebsites.net/api/PricempirePrice?code=fEaafaLhcQaclNik/HYWqHO7O4tDfCxpQGud9lqTFIFsVW75GzotLw==&name=" + item.Name + "&exterior=" + item.Exterior + "&markets=steam,csmoney,buff163&currency=USD";
-                string url = "https://steamlistfunctionapp.azurewebsites.net/api/PricempirePrice?code=fEaafaLhcQaclNik/HYWqHO7O4tDfCxpQGud9lqTFIFsVW75GzotLw==&name=" + item.Name + "&exterior=" + item.Exterior + "&markets=steam,csmoney,buff163,bitskins,csgotm,csgoexo,swapgg,skinport,dmarket,vmarket,waxpeer&currency=USD";
-                json = client.DownloadString(url);
 
+            if (App._isPremium == false)
+            {
+                using (WebClient client = new WebClient())
+                {
+                    string url = "https://steamlistfunctionapp.azurewebsites.net/api/PricempirePrice?code=fEaafaLhcQaclNik/HYWqHO7O4tDfCxpQGud9lqTFIFsVW75GzotLw==&name=" + item.Name + "&exterior=" + item.Exterior + "&markets=steam,csmoney,buff163&currency=USD";
+                    json = client.DownloadString(url);
+                }
+
+            }
+            else
+            {
+
+                using (WebClient client = new WebClient())
+                {
+
+                    string url = "https://steamlistfunctionapp.azurewebsites.net/api/PricempirePrice?code=fEaafaLhcQaclNik/HYWqHO7O4tDfCxpQGud9lqTFIFsVW75GzotLw==&name=" + item.Name + "&exterior=" + item.Exterior + "&markets=steam,csmoney,buff163,bitskins,csgotm,csgoexo,swapgg,skinport,dmarket,vmarket,waxpeer&currency=USD";
+                    json = client.DownloadString(url);
+
+                }
             }
 
             DeserialClass data = await Task.Run( () => JsonConvert.DeserializeObject<DeserialClass>(json));
 
             FullItemData res = new FullItemData();
-            
-            res.steam = data.item.prices.steam_listing_avg90.price;
-            res.csmoney = data.item.prices.csmoney_avg90.price;
-            res.buff163 = data.item.prices.buff163_avg90.price;
-            res.bitskins = data.item.prices.bitskins_avg90.price;
-            res.csgotm = data.item.prices.csgotm_avg90.price;
-            res.csgoexo = data.item.prices.csgoexo_avg90.price;
-            res.swapgg = data.item.prices.swapgg_avg90.price;
-            res.skinport = data.item.prices.skinport_avg90.price;
-            res.dmarket = data.item.prices.dmarket_avg90.price;
-            res.vmarket = data.item.prices.vmarket_avg90.price;
-            res.waxpeer = data.item.prices.waxpeer_avg90.price;
 
+            if (App._isPremium == false)
+            {
+                res.steam = data.item.prices.steam_listing_avg90?.price;
+                res.csmoney = data.item.prices.csmoney_avg90?.price;
+                res.buff163 = data.item.prices.buff163_avg90?.price;
+
+                
+            }
+            else
+            {
+                res.steam = data.item.prices.steam_listing_avg90?.price;
+                res.csmoney = data.item.prices.csmoney_avg90?.price;
+                res.buff163 = data.item.prices.buff163_avg90?.price;
+                res.bitskins = data.item.prices.bitskins_avg90?.price;
+                res.csgotm = data.item.prices.csgotm_avg90?.price;
+                res.csgoexo = data.item.prices.csgoexo_avg90?.price;
+                res.swapgg = data.item.prices.swapgg_avg90?.price;
+                res.skinport = data.item.prices.skinport_avg90?.price;
+                res.dmarket = data.item.prices.dmarket_avg90?.price;
+                res.vmarket = data.item.prices.vmarket_avg90?.price;
+                res.waxpeer = data.item.prices.waxpeer_avg90?.price;
+            }
             return res;
             
 

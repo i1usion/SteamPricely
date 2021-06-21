@@ -36,7 +36,7 @@ namespace SteamPricely
 
             else
             {
-                listView.ItemsSource = ItemList.Where(x => x.Name.StartsWith(e.NewTextValue));
+                listView.ItemsSource = ItemList.Where(x => x.Name.ToUpper().Contains(e.NewTextValue.ToUpper()));
             }
 
         }

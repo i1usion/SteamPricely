@@ -53,7 +53,9 @@ namespace SteamPricely
             else
             {
                 stackSteam.IsVisible = true;
-                priceSteam.Text = itemData.steam;
+                float convar = int.Parse(itemData.steam);
+                convar = convar / 100;
+                priceSteam.Text = convar.ToString() + "$";
             }
 
             if (String.IsNullOrEmpty(itemData.csmoney))
@@ -63,7 +65,9 @@ namespace SteamPricely
             else
             {
                 stackCsmoney.IsVisible = true;
-                priceCsmoney.Text = itemData.csmoney;
+                float convar = int.Parse(itemData.csmoney);
+                convar = convar / 100;
+                priceCsmoney.Text = convar.ToString() + "$";
             }
 
             if (String.IsNullOrEmpty(itemData.buff163))
@@ -73,7 +77,9 @@ namespace SteamPricely
             else
             {
                 stackBuff163.IsVisible = true;
-                priceBuff163.Text = itemData.buff163;
+                float convar = int.Parse(itemData.buff163);
+                convar = convar / 100;
+                priceBuff163.Text = convar.ToString() + "$";
             }
 
             if (String.IsNullOrEmpty(itemData.bitskins))
@@ -83,7 +89,9 @@ namespace SteamPricely
             else
             {
                 stackBitskins.IsVisible = true;
-                priceBitskins.Text = itemData.bitskins;
+                float convar = int.Parse(itemData.bitskins);
+                convar = convar / 100;
+                priceBitskins.Text = convar.ToString() + "$";
             }
 
             if (String.IsNullOrEmpty(itemData.csgotm))
@@ -93,7 +101,9 @@ namespace SteamPricely
             else
             {
                 stackCsgotm.IsVisible = true;
-                priceCsgotm.Text = itemData.csgotm;
+                float convar = int.Parse(itemData.csgotm);
+                convar = convar / 100;
+                priceCsgotm.Text = convar.ToString() + "$";
             }
 
             if (String.IsNullOrEmpty(itemData.csgoexo))
@@ -103,7 +113,9 @@ namespace SteamPricely
             else
             {
                 stackCsgoexo.IsVisible = true;
-                priceCsgoexo.Text = itemData.csgoexo;
+                float convar = int.Parse(itemData.csgoexo);
+                convar = convar / 100;
+                priceCsgoexo.Text = convar.ToString() + "$";
             }
 
             if (String.IsNullOrEmpty(itemData.swapgg))
@@ -113,7 +125,9 @@ namespace SteamPricely
             else
             {
                 stackSwapgg.IsVisible = true;
-                priceSwapgg.Text = itemData.swapgg;
+                float convar = int.Parse(itemData.swapgg);
+                convar = convar / 100;
+                priceSwapgg.Text = convar.ToString() + "$";
             }
 
             if (String.IsNullOrEmpty(itemData.skinport))
@@ -123,7 +137,9 @@ namespace SteamPricely
             else
             {
                 stackSkinport.IsVisible = true;
-                priceSkinport.Text = itemData.skinport;
+                float convar = int.Parse(itemData.skinport);
+                convar = convar / 100;
+                priceSkinport.Text = convar.ToString() + "$";
             }
 
             if (String.IsNullOrEmpty(itemData.dmarket))
@@ -133,7 +149,9 @@ namespace SteamPricely
             else
             {
                 stackDmarket.IsVisible = true;
-                priceDmarket.Text = itemData.dmarket;
+                float convar = int.Parse(itemData.dmarket);
+                convar = convar / 100;
+                priceDmarket.Text = convar.ToString() + "$";
             }
 
             if (String.IsNullOrEmpty(itemData.vmarket))
@@ -143,7 +161,9 @@ namespace SteamPricely
             else
             {
                 stackVmarket.IsVisible = true;
-                priceVmarket.Text = itemData.vmarket;
+                float convar = int.Parse(itemData.vmarket);
+                convar = convar / 100;
+                priceVmarket.Text = convar.ToString() + "$";
             }
 
             if (String.IsNullOrEmpty(itemData.waxpeer))
@@ -153,7 +173,9 @@ namespace SteamPricely
             else
             {
                 stackWaxpeer.IsVisible = true;
-                priceWaxpeer.Text = itemData.waxpeer;
+                float convar = int.Parse(itemData.waxpeer);
+                convar = convar / 100;
+                priceWaxpeer.Text = convar.ToString() + "$";
             }
 
         }
