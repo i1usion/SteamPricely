@@ -22,5 +22,11 @@ namespace SteamPricely
         {
             Navigation.PushAsync(new MenuPage());
         }
+
+        
+        private void btnSignIn_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CodePage());
+        }
     }
 }

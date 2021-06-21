@@ -29,3 +29,4 @@ C:\xampp\htdocs\Git\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard
 C:\xampp\htdocs\Git\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\ref\SteamPricely.dll
 C:\xampp\htdocs\Git\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\SteamPricely.pdb
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\ItemPage.xaml.g.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\CodePage.xaml.g.cs

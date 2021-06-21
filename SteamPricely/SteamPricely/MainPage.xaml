@@ -24,7 +24,7 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
-        <Button Text="Sign in" BackgroundColor="#141414" TextColor="White" FontSize="16" Padding="0, 0, 0, 20"/>
+        <Button Text="Sign in" BackgroundColor="#141414" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" FontSize="16" Padding="0, 0, 0, 20" Clicked="btnSignIn_Clicked"/>
     </StackLayout>
 
 </ContentPage>

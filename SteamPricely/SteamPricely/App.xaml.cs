@@ -6,6 +6,7 @@ namespace SteamPricely
 {
     public partial class App : Application
     {
+        public static Boolean _isPremium { get; set; }
         public App()
         {
             InitializeComponent();
