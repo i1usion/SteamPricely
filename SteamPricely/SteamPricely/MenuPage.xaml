@@ -2,6 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SteamPricely.MenuPage">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Reload DB"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="btnRefreshDb"/>
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
         <StackLayout BackgroundColor="#141414">
             <SearchBar Placeholder="Enter item name" BackgroundColor="AliceBlue" TextChanged="SearchBar_TextChanged" />

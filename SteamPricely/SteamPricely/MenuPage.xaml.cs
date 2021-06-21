@@ -66,7 +66,11 @@ namespace SteamPricely
 
         }
 
-        
+        private async void btnRefreshDb(object sender, EventArgs e)
+        {
+            await ItemService.RefreshTable();
+            getSearchInfo();
+        }
     }
 
   

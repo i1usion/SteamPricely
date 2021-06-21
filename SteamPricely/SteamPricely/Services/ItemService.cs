@@ -56,6 +56,13 @@ namespace SteamPricely.Services
 
         }
 
+        public static async Task RefreshTable()
+        {
+            await Init();
+            await db.DeleteAllAsync<ItemSearchDb>();
+            await UpdateTable();
+        }
+
         public static Task<List<ItemSearchDb>> GetAllSearchItems()
         {
 

@@ -20,7 +20,7 @@ namespace SteamPricely
 
         private void btnFree_Clicked(object sender, EventArgs e)
         {
-            App._isPremium = true;
+            App._isPremium = false;
             Navigation.PushAsync(new MenuPage());
         }
 
