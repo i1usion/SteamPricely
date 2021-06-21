@@ -14,7 +14,10 @@ namespace SteamPricely
         public MainPage()
         {
             InitializeComponent();
-           
+
+            Xamarin.Forms.NavigationPage.SetHasNavigationBar(this, false);
+
+
         }
 
 

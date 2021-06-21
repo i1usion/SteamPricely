@@ -4,10 +4,22 @@
              x:Class="SteamPricely.CodePage"
              Title="SteamPricely">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#141414">
-            <Entry x:Name="Key" Keyboard="Text" VerticalOptions="EndAndExpand"  Placeholder="Code" BackgroundColor="Gray" TextColor="WhiteSmoke"/>
-            <Label x:Name="Error" Text="Code is invalid or expired" TextColor="Red" Padding="5, 1, 0, 10" FontSize="16" IsVisible="False" />
-            <Button Text="Check" BorderWidth="1" BorderColor="AliceBlue" HorizontalOptions="Center" VerticalOptions="StartAndExpand" Clicked="CheckButton_Clicked"/>
+        <StackLayout BackgroundColor="#272537">
+            <Label Text="By using premium you will get access to the following platforms data:" TextColor="White" FontSize="23" Padding="15, 125, 0, 0" HorizontalTextAlignment="Center"/>
+
+            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="CenterAndExpand" VerticalOptions="End" Padding="0, 25, 0, 45">
+                <Image Source="https://static.pricempire.com/logos/dmarket_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                <Image Source="https://static.pricempire.com/logos/csgotm_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                <Image Source="https://static.pricempire.com/logos/waxpeer_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                <Image Source="https://static.pricempire.com/logos/bitskins_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                <Image Source="https://static.pricempire.com/logos/skinport_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                <Image Source="https://static.pricempire.com/logos/swapgg_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                <Image Source="https://static.pricempire.com/logos/vmarket_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+                <Image Source="https://static.pricempire.com/logos/csgoexo_icon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"/>
+            </StackLayout>
+            <Entry x:Name="Key" Keyboard="Text" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="350"  Placeholder="Code" BackgroundColor="Transparent" PlaceholderColor="White" TextColor="WhiteSmoke"/>
+            <Label x:Name="Error" Text="Code is invalid or expired" HorizontalOptions="Center" TextColor="Red" Padding="0, 0, 160, 10" FontSize="16" IsVisible="False" />
+            <Button Text="Check" BorderWidth="2" BorderColor="Black" HorizontalOptions="Center" VerticalOptions="StartAndExpand" Clicked="CheckButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

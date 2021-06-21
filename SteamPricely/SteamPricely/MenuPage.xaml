@@ -12,7 +12,7 @@
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#141414">
+        <StackLayout BackgroundColor="#272537">
             <SearchBar Placeholder="Enter item name" BackgroundColor="AliceBlue" TextChanged="SearchBar_TextChanged" />
 
            

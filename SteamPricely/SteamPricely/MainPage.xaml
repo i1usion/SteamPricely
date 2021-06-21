@@ -4,13 +4,15 @@
              xmlns:system="clr-namespace:System;assembly=netstandard"
              x:Class="SteamPricely.MainPage">
 
-    <StackLayout BackgroundColor="#141414">
-        <Frame BackgroundColor="#141414" Padding="8" CornerRadius="0">
-            <Label Text="SteamPricely" HorizontalTextAlignment="Center" Padding = "0, 5, 0, 0" TextColor="White" FontSize="36"/>
-        </Frame>
+    <StackLayout BackgroundColor="#272537" Padding="0, 75, 0, 0">
+        <Label Text="SteamPricely" HorizontalTextAlignment="Center"  Padding = "5, 25, 0, 25" TextColor="White" FontSize="36" VerticalOptions="End" />
+        <Path Stroke="White" Fill="White" Aspect="Uniform"
+      HorizontalOptions="Center"
+      HeightRequest="250"
+      WidthRequest="250" Data="M9.99994 0C4.70557 0 0.374845 4.11527 0.0253906 9.32127L5.21175 11.4135C5.66757 11.0962 6.22066 10.9091 6.81812 10.9091C6.94648 10.9091 7.07194 10.9205 7.19557 10.9373L9.63666 7.35709C9.64012 5.30164 11.3072 3.63636 13.3636 3.63636C15.4221 3.63636 17.0908 5.30509 17.0908 7.36364C17.0908 9.42218 15.4221 11.0909 13.3636 11.0909C13.3618 11.0909 13.3598 11.0907 13.3579 11.0907L9.62612 13.5245C9.63085 13.5916 9.6363 13.6589 9.6363 13.7273C9.6363 15.2838 8.37466 16.5455 6.81812 16.5455C5.44266 16.5455 4.29903 15.5596 4.05121 14.2562L0.385027 12.7467C1.57903 16.9335 5.43012 20 9.99994 20C15.5228 20 19.9999 15.5229 19.9999 10C19.9999 4.47727 15.5228 0 9.99994 0ZM6.81812 15.2727C6.65175 15.2727 6.49175 15.2458 6.34157 15.1971L6.34085 15.1989L6.29503 15.18C6.25084 15.1642 6.20775 15.1464 6.16557 15.1267L4.9283 14.6175C5.26266 15.3264 5.98212 15.8182 6.81812 15.8182C7.97284 15.8182 8.90903 14.8822 8.90903 13.7273C8.90903 12.5724 7.97284 11.6364 6.81812 11.6364C6.56248 11.6364 6.31866 11.6845 6.09212 11.7685L7.40121 12.2965C7.4103 12.3004 7.41939 12.3036 7.4283 12.3076L7.53012 12.3487L7.52739 12.3555C8.02375 12.6124 8.36357 13.1296 8.36357 13.7273C8.36357 14.5807 7.67157 15.2727 6.81812 15.2727ZM15.9999 7.36364C15.9999 5.90764 14.8196 4.72727 13.3636 4.72727C11.9076 4.72727 10.7272 5.90764 10.7272 7.36364C10.7272 8.81964 11.9076 10 13.3636 10C14.8196 10 15.9999 8.81964 15.9999 7.36364ZM11.4545 7.36364C11.4545 6.30927 12.3092 5.45455 13.3636 5.45455C14.4179 5.45455 15.2727 6.30927 15.2727 7.36364C15.2727 8.418 14.4179 9.27273 13.3636 9.27273C12.3092 9.27273 11.4545 8.418 11.4545 7.36364Z" />
 
-        <StackLayout Padding="0, 220, 0, 0">
-            <Button x:Name="btnFree" Text="Login as guest"  HorizontalOptions="Center" Padding = "15, 7, 15, 7" FontSize="15" BackgroundColor="#404040"
+        <StackLayout Padding="0, 0, 0, 0" VerticalOptions="CenterAndExpand">
+            <Button x:Name="btnFree" Text="Login as guest"  HorizontalOptions="Center" Padding = "15, 7, 15, 7" FontSize="15" BackgroundColor="White"
             Clicked="btnFree_Clicked"/>
         </StackLayout>
             
@@ -24,7 +26,7 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
-        <Button Text="Sign in" BackgroundColor="#141414" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" FontSize="16" Padding="0, 0, 0, 20" Clicked="btnSignIn_Clicked"/>
+        <Button Text="Sign in" BackgroundColor="Transparent" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" FontSize="16" Padding="0, 0, 0, 20" Clicked="btnSignIn_Clicked"/>
     </StackLayout>
 
 </ContentPage>

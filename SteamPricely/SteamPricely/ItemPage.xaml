@@ -4,9 +4,9 @@
              x:Class="SteamPricely.ItemPage"
              Title="SteamPricely">
     <ScrollView >
-        <StackLayout BackgroundColor="#141414">
+        <StackLayout BackgroundColor="#141416">
             <StackLayout>
-                <StackLayout BackgroundColor="DimGray"  HeightRequest="250" >
+                <StackLayout BackgroundColor="#272537"  HeightRequest="250" >
                     <Image x:Name="ItemImage" HeightRequest="250" WidthRequest="250"/>
                 </StackLayout>
                 <Label x:Name="ItemName" HorizontalOptions="CenterAndExpand" TextColor="AliceBlue" FontSize="24" Padding="10, 10, 0, 0" />
