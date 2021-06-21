@@ -8,7 +8,7 @@ namespace SteamPricely
     {
         public string Name { set; get; }
         public string Exterior { set; get; }
-        public string Img { set; get; }
+        public string imageUrl { set; get; }
         //public string Price { private set; get; } (if needed)
 
     }

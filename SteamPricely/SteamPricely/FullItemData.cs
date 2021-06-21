@@ -4,12 +4,9 @@ using System.Text;
 
 namespace SteamPricely
 {
-    public class FullItemData : SearchItem
+    public class FullItemData : FreeItemData
     {
-        public string steam { set; get; }
         public string bitskins { set; get; }
-        public string buff163 { set; get; }
-        public string csmoney { set; get; }
         public string csgotm { set; get; }
         public string csgoexo { set; get; }
         public string swapgg { set; get; }
@@ -19,5 +16,8 @@ namespace SteamPricely
         public string waxpeer { set; get; }
 
 
+
     }
+
+
 }

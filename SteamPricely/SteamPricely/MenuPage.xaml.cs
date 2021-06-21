@@ -44,7 +44,7 @@ namespace SteamPricely
         public async void getSearchInfo()
         {
             await ItemService.Init();
-            var ItemList = await ItemService.GetAllSearchItems();
+            ItemList = await ItemService.GetAllSearchItems();
 
             if(ItemList.Count < 3)
             {
