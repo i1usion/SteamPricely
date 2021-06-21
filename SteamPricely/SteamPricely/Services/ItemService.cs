@@ -28,12 +28,26 @@ namespace SteamPricely.Services
             await db.CreateTableAsync<ItemSearchDb>();
         }
 
+        public static async Task<Boolean> ValidateKey(string key)
+        {
+            string res;
+
+            using (WebClient client = new WebClient())
+            {
+                res = client.DownloadString($"https://steamlistfunctionapp.azurewebsites.net/api/PremiumKey?code=NEiwrZxCeiyle8AG6wwf5QbYWVwivx5dmwSyeEaEwdOOy/Eq754UzQ==&checkKey=" + key);
+            }
+
+            Boolean isValidated = bool.Parse(res);
+
+            return isValidated;
+        }
+
         public static async Task UpdateTable()
         {
             string json;
             using (WebClient client = new WebClient())
             {
-                json = client.DownloadString($"https://steamlistfunctionapp.azurewebsites.net/api/HttpTrigger1?code=T9t19XwwSa045AMyQQsBZAHJ/kevErkrakUwM64S/oiDJVm4JLrsuQ==");
+                json = client.DownloadString($"https://steamlistfunctionapp.azurewebsites.net/api/SkinsDB?code=QA5LVde5FifWLQrCdksWeKLksh7YcOC7HCZE2waO/XmhYrLuvdEPHw==");
 
             }
 

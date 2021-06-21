@@ -5,6 +5,7 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="#141414">
             <Entry x:Name="Key" Keyboard="Text" VerticalOptions="EndAndExpand"  Placeholder="Code" BackgroundColor="Gray" TextColor="WhiteSmoke"/>
+            <Label x:Name="Error" Text="Code is invalid or expired" TextColor="Red" Padding="5, 1, 0, 10" FontSize="16" IsVisible="False" />
             <Button Text="Check" BorderWidth="1" BorderColor="AliceBlue" HorizontalOptions="Center" VerticalOptions="StartAndExpand" Clicked="CheckButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>

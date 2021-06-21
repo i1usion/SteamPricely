@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SteamPricely.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,10 +18,20 @@ namespace SteamPricely
             InitializeComponent();
         }
 
-        private void CheckButton_Clicked(object sender, EventArgs e)
+        private async void CheckButton_Clicked(object sender, EventArgs e)
         {
             var key = Key.Text;
+            Boolean isCorrect = await ItemService.ValidateKey(key);
 
+            if(isCorrect)
+            {
+                App._isPremium = true;
+                Navigation.PushAsync(new MenuPage());
+            }
+            else
+            {
+                Error.IsVisible = true;
+            }
         }
     }
 }
