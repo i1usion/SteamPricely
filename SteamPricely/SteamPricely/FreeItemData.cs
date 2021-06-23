@@ -6,8 +6,8 @@ namespace SteamPricely
 {
     public class FreeItemData : SearchItem
     {
-        public string steam { set; get; }
-        public string buff163 { set; get; }
-        public string csmoney { set; get; }
+        public string steam { get; set; }
+        public string buff163 { get; set; }
+        public string csmoney { get; set; }
     }
 }

@@ -6,14 +6,14 @@ namespace SteamPricely
 {
     public class FullItemData : FreeItemData
     {
-        public string bitskins { set; get; }
-        public string csgotm { set; get; }
-        public string csgoexo { set; get; }
-        public string swapgg { set; get; }
-        public string skinport { set; get; }
-        public string dmarket { set; get; }
-        public string vmarket { set; get; }
-        public string waxpeer { set; get; }
+        public string bitskins { get; set; }
+        public string csgotm { get; set; }
+        public string csgoexo { get; set; }
+        public string swapgg { get; set; }
+        public string skinport { get; set; }
+        public string dmarket { get; set; }
+        public string vmarket { get; set; }
+        public string waxpeer { get; set; }
 
 
 

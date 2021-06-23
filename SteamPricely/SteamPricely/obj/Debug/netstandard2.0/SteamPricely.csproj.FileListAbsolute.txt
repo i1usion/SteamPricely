@@ -3,8 +3,6 @@ C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\bin\Debug
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\bin\Debug\netstandard2.0\ref\SteamPricely.dll
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\bin\Debug\netstandard2.0\SteamPricely.pdb
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\SteamPricely.csprojAssemblyReference.cache
-C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\SteamPricely.AssemblyInfoInputs.cache
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\SteamPricely.AssemblyInfo.cs
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\SteamPricely.csproj.CoreCompileInputs.cache
@@ -12,7 +10,6 @@ C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\SteamPricely.dll
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\ref\SteamPricely.dll
 C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\SteamPricely.pdb
-C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\MenuPage.xaml.g.cs
 C:\xampp\htdocs\Git\SteamPricely\SteamPricely\SteamPricely\bin\Debug\netstandard2.0\SteamPricely.deps.json
 C:\xampp\htdocs\Git\SteamPricely\SteamPricely\SteamPricely\bin\Debug\netstandard2.0\SteamPricely.dll
 C:\xampp\htdocs\Git\SteamPricely\SteamPricely\SteamPricely\bin\Debug\netstandard2.0\ref\SteamPricely.dll
@@ -28,5 +25,8 @@ C:\xampp\htdocs\Git\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard
 C:\xampp\htdocs\Git\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\SteamPricely.dll
 C:\xampp\htdocs\Git\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\ref\SteamPricely.dll
 C:\xampp\htdocs\Git\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\SteamPricely.pdb
-C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\ItemPage.xaml.g.cs
-C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\CodePage.xaml.g.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\Views\CodePage.xaml.g.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\Views\ItemPage.xaml.g.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\Views\App.xaml.g.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.0\Views\StartPage.xaml.g.cs

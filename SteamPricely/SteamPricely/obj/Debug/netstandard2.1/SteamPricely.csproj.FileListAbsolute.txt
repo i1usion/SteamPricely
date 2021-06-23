@@ -1,0 +1,17 @@
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\bin\Debug\netstandard2.1\SteamPricely.deps.json
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\bin\Debug\netstandard2.1\SteamPricely.dll
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\bin\Debug\netstandard2.1\ref\SteamPricely.dll
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\bin\Debug\netstandard2.1\SteamPricely.pdb
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\SteamPricely.csprojAssemblyReference.cache
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\Views\App.xaml.g.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\Views\CodePage.xaml.g.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\Views\ItemPage.xaml.g.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\Views\MenuPage.xaml.g.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\Views\StartPage.xaml.g.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\SteamPricely.AssemblyInfoInputs.cache
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\SteamPricely.AssemblyInfo.cs
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\SteamPricely.csproj.CoreCompileInputs.cache
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\XamlC.stamp
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\SteamPricely.dll
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\ref\SteamPricely.dll
+C:\Users\blablacar\source\repos\SteamPricely\SteamPricely\SteamPricely\obj\Debug\netstandard2.1\SteamPricely.pdb

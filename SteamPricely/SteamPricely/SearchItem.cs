@@ -6,10 +6,10 @@ namespace SteamPricely
 {
     public class SearchItem
     {
-        public string Name { set; get; }
-        public string Exterior { set; get; }
-        public string imageUrl { set; get; }
-        //public string Price { private set; get; } (if needed)
+        public string Name { get; set; }
+        public string Exterior { get; set; }
+        public string imageUrl { get; set; }
+        //public string Price { get; set; } (if needed)
 
     }
 }
